@@ -1,2 +1,14 @@
+# these fill up with little files when the competition is going
+archive/*
+status/*
 
+# exclude any (private) pilot data, but include the sample data
+data/*
+!data/pilot_list.csv
+
+# exclude any Cloud9 hosting configuration files
+app/.~c9*
+
+# exclude gever's prototype from jupyter notebook
+.ipynb*
 *.swp
